@@ -1,0 +1,217 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .form-container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-tab {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-tab h1 {
+    font-size: 36px;
+    color: #123552;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .input-tab {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  .form-tab span {
+    align-self: left;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 12px;
+    color: #123552;
+    /* margin-bottom: 0.6rem; */
+    padding: 15px;
+  }
+  
+  .form-tab input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px;
+    border: 1px solid #123552;
+  
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .form-tab input::placeholder {
+    color: rgb(156, 171, 187);
+  }
+  
+  .form-tab input:focus {
+    outline: none;
+  }
+  
+  .submit-button {
+    margin-top: 1.5rem;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .submit-button button {
+    width: 40%;
+    padding: 12px;
+    border-radius: 20px;
+  
+    font-family: "Roboto";
+    color: white;
+    font-size: 14px;
+  
+    border: 1px solid #123552;
+  
+    background-color: #123552;
+  }
+  
+  .submit-button button:hover {
+    cursor: pointer;
+    color: #123552;
+    background-color: white;
+    transition: background-color 0.5s ease-in,  color 1s ease-in;
+  }
+  
+  .submit-button button:focus {
+    outline: none;
+  }
+  
+  .links-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+  }
+  
+  .links-tab a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #123552;
+  }
+
+  .links-tab a:hover{
+    color: white;
+    transition: color 2s ease-in-out;
+  }
+  
+  .social-tab {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .social-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    width: 2.9rem;
+    height: 2.9rem;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+  }
+  
+  .social-button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #123552;
+    transition: background-color 1s ease-in-out, img 1s ease;
+  }
+  .social-button img{
+      height: 2.9rem;
+      width: 2.9rem;
+      margin: 0 0.5rem;
+      display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      opacity: 1;
+  }
+  .social-button img:hover{
+      opacity: 0.5;
+    transition: opacity 1s ease;
+  }
+  
+   .social-button > i:hover {
+     background-color: black; 
+  } 
+  
+  .canvas {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(214, 59, 59); */
+    border: 1px  solid red;
+    object-fit: scale-down;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+  }
+  .canvas img{
+    left: 40%;
+    width: 60%;
+    height: 100%;
+    align-content: flex-end;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+}
+   .canvas:hover {
+    filter:blur(0px);
+    color: yellow;
+    transition: color 1s ease-in-out, filter 1s ease-in-out;
+} 
+
+  .slogan {
+    width: 90%;
+  }
+  
+  .slogan h1 {
+    font-size: 75px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    position:relative;
+    z-index: 2;  
+  }
+  
